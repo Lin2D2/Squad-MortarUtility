@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="space-between">
+            <p>Squad Mortar Utility</p><input id="close" type="button" value="X">
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="inline">
+                <label for="location">Location:</label><input id="location" type="text">
+            </div>
+            <div class="inline">
+                <label for="target-location">Target Location:</label><input id="target-location" type="text">
+            </div>
+        </div>
+        <hr>
+        <div class="wrapper">
+            <div class="inline">
+                <label for="distance">Distance:</label><input id="distance" type="text" disabled value="m">
+            </div>
+            <div class="inline">
+                <label for="direction">Direction:</label><input id="direction" type="text" disabled value="°">
+            </div>
+            <div class="inline">
+                <label for="milliradians">Milliradians:</label><input id="milliradians" type="text" disabled value="mil">
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="right">
+                <input type="button" value="Calc">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

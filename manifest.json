@@ -11,16 +11,29 @@
         "description":"Squad Mortar Utility"
     },
     "data": {
-        "start_window":"MainWindow",
+        "game_targeting": {"type": "dedicated","game_ids": []},
+        "start_window":"InGame",
         "windows":{
-            "MainWindow":{
-                    "file":"index.html",
+            "Background":{
+                "file":"windows/background/index.html",
+                "is_background_page": true
+            },
+            "InGame":{
+                    "file":"windows/inGame/index.html",
                     "transparent": false,
                     "resizable": false,
-                    "use_os_windowing": true,
+                    "use_os_windowing": false,
+                    "in_game_only": true,
+                    "restrict_to_game_bounds": true,
+                    "topmost": true,
+                    "grab_keyboard_focus": false,
+                    "start_position": {
+                        "top": 50,
+                        "left": 15
+                    },
                     "size": {
                         "width":240,
-                        "height":260
+                        "height":290
                         }
                 }
         }
