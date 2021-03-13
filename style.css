@@ -1,0 +1,61 @@
+html, body {
+    background-color: #616161;
+    color: #ffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12;
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    overflow: hidden
+}
+.wrapper {
+    margin: 15px;
+    text-align:right;
+}
+.inline {
+    display: inline-block;
+    margin-top: 10px;
+}
+.inline:first-of-type {
+    margin-top: 5px;
+}
+label {
+    margin-right: 15px;
+}
+input[type=text] {
+    width: 72px;
+    height: 22px;
+    border: none;
+    text-align: center;
+    color: #ffff;
+}
+input:enabled{
+    background-color: #424242;
+    border-radius: 10px;
+}
+input:disabled{
+    background-color: transparent;
+}
+#location {
+    color: #4caf50;
+}
+#target-location {
+    color: #f44336;
+}
+hr {
+    color: #424242;
+}
+#direction {
+    color: #ffeb3b;
+}
+#milliradians {
+    color: #ffeb3b;
+}
+input[type=button] {
+    width: 72px;
+    height: 26px;
+    color: #ffff;
+    background-color: #424242;
+    border: none;
+    border-radius: 10px;
+}
